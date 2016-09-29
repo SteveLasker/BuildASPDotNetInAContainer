@@ -49,6 +49,7 @@
   },
   "publishOptions": {
     "include": [
+      "dockerfile",
       "wwwroot",
       "**/*.cshtml",
       "appsettings.json",
