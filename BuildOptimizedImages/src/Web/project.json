@@ -57,7 +57,6 @@
   },
 
   "scripts": {
-    "prepublish": [ "bower install", "dotnet bundle" ],
-    "postpublish": [ "dotnet publish-iis --publish-folder %publish:OutputPath% --framework %publish:FullTargetFramework%" ]
+    "prepublish": [ "bower install", "dotnet bundle" ]
   }
 }
