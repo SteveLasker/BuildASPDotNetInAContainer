@@ -1,0 +1,7 @@
+FROM microsoft/dotnet:1.0.1-core
+
+RUN mkdir /app
+WORKDIR /app
+ADD . .
+
+CMD dotnet app.dll
